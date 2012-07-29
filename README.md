@@ -1,8 +1,12 @@
-# A simple clojurescript template
+# A Simple Clojurescript Template
 
 This is what I consider a bare-bones starting point for clojurescript
 development. It contains a simple compojure app that serves a hiccup-rendered
 page that loads the compiled clojurescript.
+
+This was adapted from [lein-cljsbuild's][cljsbuild] sample projects.
+
+[cljsbuild]: https://github.com/emezeske/lein-cljsbuild
 
 ## Usage
 
