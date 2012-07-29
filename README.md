@@ -1,13 +1,18 @@
-# aperiodic-cljs
+# A simple clojurescript template
 
 This is what I consider a bare-bones starting point for clojurescript
-development. It contains a simple compojure app to serve a hiccup-rendered page
-that loads the compiled clojurescript.
+development. It contains a simple compojure app that serves a hiccup-rendered
+page that loads the compiled clojurescript.
 
 ## Usage
 
-Compile the clojurescript with `lein cljsbuild once`, then start the development
-server with `lein ring server`.
+To create a new leiningen project with this template, run `lein new
+aperiodic-cljs <project-name>`. Note that this requires lein2.
+
+Once the project has been created, cd to its root, compile the clojurescript
+with `lein cljsbuild once`, and start the development server with `lein ring
+server`. You should be greeted with an alert that says `<project-name> lives!`.
+If something goes wrong, open an issue!
 
 ## License
 
